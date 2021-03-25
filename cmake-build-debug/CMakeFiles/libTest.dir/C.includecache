@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/List.h
+stdio.h
+-
+stdlib.h
+-
+
+/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/queue.h
+List.h
+/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/List.h
+
+/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/stack.h
+List.h
+/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/List.h
+
+/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/src/main.c
+../lib/stack.h
+/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/stack.h
+../lib/queue.h
+/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/queue.h
+

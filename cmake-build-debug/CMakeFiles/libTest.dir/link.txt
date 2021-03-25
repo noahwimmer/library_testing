@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/libTest.dir/src/main.c.o  -o libTest  -Wl,-rpath,/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib ../lib/libList.dylib ../lib/libQueue.dylib ../lib/libStack.dylib 

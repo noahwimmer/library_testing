@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/noahwimmer/Desktop/da_codes/c/testing/library_testing
+LIBRARIES = /Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/libList.dylib;/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/libQueue.dylib;/Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/lib/libStack.dylib
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/noahwimmer/Desktop/da_codes/c/testing/library_testing/cmake-build-debug
